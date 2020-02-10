@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<catalog >
+    <article id="1">
+        <author>Виктория</author>
+        <title>Каникулы в Скандинавии</title>
+        <genre>Путешествия</genre>
+        <publish_date>2019-01-07</publish_date>
+        <text>Статья о зимних каникулах</text>
+    </article>
+    <article id="2">
+        <author>Henry</author>
+        <title>Сафари</title>
+        <genre>Путешествия</genre>
+        <publish_date>2018-12-16</publish_date>
+        <text>Очень интересная история</text>
+    </article>
+    <article id="3">
+        <author>Ева</author>
+        <title>Питание котят</title>
+        <genre>Домашние животные</genre>
+        <publish_date>2018-11-12</publish_date>
+        <text>Подробная инструкция о кормлении котят</text>
+    </article>
+    <article id="4">
+        <author>Ева</author>
+        <title>Викинги</title>
+        <genre>История</genre>
+        <publish_date>2018-09-20</publish_date>
+        <text>Происхождение викингов</text>
+    </article>
+    <article id="5">
+        <author>John</author>
+        <title>Управление самолетов</title>
+        <genre>Хобби</genre>
+        <publish_date>2018-09-10</publish_date>
+        <text>Как стать пилотом</text>
+    </article>
+    <article id="6">
+        <author>Кристина</author>
+        <title>Природа и фотография</title>
+        <genre>Хобби</genre>
+        <publish_date>2018-09-01</publish_date>
+        <text>Как сделать правильные снимки природы</text>
+    </article>
+    <article id="7">
+        <author>Paul</author>
+        <title>Выучить японский - легко</title>
+        <genre>Самообразование</genre>
+        <publish_date>2018-08-22</publish_date>
+        <text>Техники изучения японского языка</text>
+    </article>
+    <article id="8">
+        <author>Philip</author>
+        <title>Дрессировка собак</title>
+        <genre>Домашние животные</genre>
+        <publish_date>2018-08-06</publish_date>
+        <text>Как научить свою собаку выполнять команды</text>
+    </article>
+    <article id="9">
+        <author>Philip</author>
+        <title>Собака в самолете</title>
+        <genre>Домашние животные</genre>
+        <publish_date>2018-08-02</publish_date>
+        <text>Как подготовить собаку к перелету</text>
+    </article>
+    <article id="10">
+        <author>Tim</author>
+        <title>Сноусёрфинг</title>
+        <genre>Хобби</genre>
+        <publish_date>2018-06-15</publish_date>
+        <text>Вся информация для новичков</text>
+    </article>
+</catalog>
