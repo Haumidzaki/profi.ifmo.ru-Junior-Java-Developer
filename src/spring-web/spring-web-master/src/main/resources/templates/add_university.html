@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3>Форма добавления университета</h3>
+
+<p th:if="${addInfo}">Университет
+    <span  th:text="${addInfo}" style="color:red"></span>
+    добавлен
+</p>
+
+<form method="post" th:action="@{/university/add}" th:object="${university}">
+    <label>Название университета: <input th:field="*{universityName}" type="text"></label>
+    <p><input type="submit" value="Добавить"></p>
+</form>
+
+<p><a href="/">На главную</a></p>
+
+</body>
+</html>

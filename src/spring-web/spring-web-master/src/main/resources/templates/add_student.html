@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Форма добавления участника</h3>
+
+<form action="#" th:action="@{/student/add}" th:object="${student}" method="post">
+    <div>
+        <select name="universityId">
+            <option th:each="university : ${universities}"
+                    th:value="${university.id}"
+                    th:utext="${university.universityName}">
+            </option>
+        </select>
+    </div>
+
+    <div>
+        <select name="eventId">
+            <option th:each="event : ${events}"
+                    th:value="${event.id}"
+                    th:utext="${event.eventTitle}">
+            </option>
+        </select>
+    </div>
+
+    <div>
+        <label>Имя участника: <input type="text" th:field="*{studentName}" /></label>
+    </div>
+
+    <div>
+        <label>Код участника: <input type="number" th:field="*{studentCode}" /></label>
+    </div>
+
+    <p><input type="submit" value="Добавить" /> </p>
+</form>
+
+<p><a href="/">На главную</a></p>
+
+</body>
+</html>
